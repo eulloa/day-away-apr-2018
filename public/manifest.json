@@ -1,0 +1,20 @@
+{
+  "short_name": "PWA Pipeline Extension",
+  "name": "PWA Pipeline Extension",
+  "description": "Check the health of the shopping-pwa pipeline",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_title": "PWA Pipeline Extension"
+  },
+  "version": "1.0",
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
